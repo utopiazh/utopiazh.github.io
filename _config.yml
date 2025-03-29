@@ -1,0 +1,40 @@
+# Site settings
+title: Your Blog Name
+description: Your blog description
+url: https://utopiazh.github.io
+
+# Collections configuration
+collections:
+  ai:
+    output: true
+    permalink: /ai/:title/
+    label: AI & Machine Learning
+  tech:
+    output: true
+    permalink: /tech/:title/
+    label: Technology
+  misc:
+    output: true
+    permalink: /misc/:title/
+    label: Miscellaneous
+
+# Defaults for collections
+defaults:
+  - scope:
+      path: ""
+      type: ai
+    values:
+      layout: post
+      category: ai
+  - scope:
+      path: ""
+      type: tech
+    values:
+      layout: post
+      category: tech
+  - scope:
+      path: ""
+      type: misc
+    values:
+      layout: post
+      category: misc
