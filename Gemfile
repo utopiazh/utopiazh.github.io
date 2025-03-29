@@ -10,4 +10,4 @@ group :jekyll_plugins do
   # Add any Jekyll plugins you want to use here
 end
 
-gem "minima", github: "jekyll/minima", ref: "1e8a445"
+# gem "minima", github: "jekyll/minima", ref: "1e8a445"
