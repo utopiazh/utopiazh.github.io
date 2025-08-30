@@ -2,9 +2,12 @@
 title: Void Voyager
 description: A journey to understand the world
 url: https://utopiazh.github.io
-remote_theme: pages-themes/architect@v0.2.0
+#theme: minimal-mistakes-jekyll
+#remote_theme: pages-themes/architect@v0.2.0
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins:
 - jekyll-remote-theme
+- jekyll-include-cache
 show_downloads: false
 # Collections configuration
 collections:
